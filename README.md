@@ -1,2 +1,3 @@
-# battlemap.app-terraform
-Terraform configuration for battlemap.app
+# battlemap.app
+
+Terraform configuration for https://battlemap.app.
