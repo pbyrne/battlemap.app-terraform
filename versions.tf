@@ -4,5 +4,13 @@ terraform {
       source = "dnsimple/dnsimple"
     }
   }
-}
 
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "byrne-team"
+
+    workspaces {
+      name = "battlemap_app"
+    }
+  }
+}
